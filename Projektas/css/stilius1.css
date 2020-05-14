@@ -1,0 +1,48 @@
+header{
+
+    border: 1px solid #000000;
+    height: 100px;
+}
+aside{
+
+    border: 1px solid #000000;
+    width: 180px;
+}
+main{
+
+}
+footer{
+
+
+    color: black;
+    height: 50px;
+}
+.norm{
+    background-color: red;
+    color: pink;
+    font-size: 2rem;
+    display: none;
+    top: 0;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+}
+/*meniu stilius*/
+.menu > a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px 5px 0;
+    margin-right: 10px;
+    border-right: 1px solid black;
+    transition: all 1s ease-in-out;
+    /*width: 100px; /*kad tarpai*/
+
+}
+.menu > a:last-child{
+    border-right: none;
+}
+.menu > a:hover{
+    color: saddlebrown;
+    /*border-bottom: 1px solid blue;*/
+   /* font-size: 1.5rem; */
+}
